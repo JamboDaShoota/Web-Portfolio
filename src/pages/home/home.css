@@ -1,0 +1,156 @@
+.center {
+  width: 100%;
+  height: 85%;
+  padding: 2.5rem 8rem;
+}
+
+footer {
+  width: 100%;
+  height: 15%;
+  color: white;
+  -webkit-text-stroke: 0.5px black;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.left-center {
+  width: 50%;
+  height: 100%;
+}
+
+.right-center {
+  width: 50%;
+  height: 100%;
+  margin-left: 1rem;
+}
+
+.right-center .top {
+  width: 100%;
+  height: 75%;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+
+.right-center .bottom {
+  width: 100%;
+  height: 25%;
+  background-color: blue;
+}
+
+.left-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.greeting {
+  width: 100%;
+  height: 60%;
+}
+
+.buttons {
+  width: 100%;
+  height: 20%;
+}
+
+.info {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+}
+
+.socials {
+    width: 75%;
+    height: 75%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    transform: translateX(-20px);
+}
+
+.icon {
+    color: white;
+    font-size: 2rem;
+    transition: color o.5s;
+}
+
+.icon:hover {
+    color: #7aa1be;
+}
+
+.email {
+    width: 100%;
+    height: 25%;
+    padding-left: 1rem;
+    color: white;
+    font-size: 1.25;
+}
+
+.greeting {
+  padding-top: 2rem;
+}
+
+.greeting p {
+  -webkit-text-stroke: 0.5px black;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  color: white;
+  font-size: 2rem;
+}
+
+#level2 {
+  font-size: 4rem;
+}
+
+#name {
+  color: #2198ff;
+}
+
+#job {
+  color: #2198ff;
+  font-size: 2.8rem;
+}
+
+#bigger {
+  font-size: 2.8rem;
+}
+
+.buttons {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row;
+}
+
+.btn {
+  text-decoration: none;
+  font-size: 1.8rem;
+  color: black;
+  background-color: white;
+  box-shadow: -8px 8px 10px rgba(0, 0, 0, 0.35);
+  outline: 2px solid black;
+  padding: 0.5rem;
+  transition: background-color 0.5s;
+}
+
+.btn:hover {
+    background-color: #7aa1be;
+}
+
+
+.btn-1 {
+    margin-right: 6rem;
+    padding-right: 1.25rem;
+    padding-left: 1.25rem;
+    margin-left: 1rem;
+}
+
+.btn-2 {
+    padding-right: 1.25rem;
+    padding-left: 1.25rem;
+}
+
